@@ -1,0 +1,33 @@
+.box-search {
+    height: 100%;
+}
+
+.titleL h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #53382c;
+}
+
+.mid-content {
+    padding: 20px;
+}
+
+.mid-content b,
+.mid-content span {
+    color: red;
+}
+
+.mid-content span {
+    background-color: yellow;
+}
+
+.mess_result {
+    text-align: center;
+    padding: 20px;
+}
+
+.no_result {
+    text-align: center;
+    padding: 30px;
+    color: rgb(104, 36, 19);
+}

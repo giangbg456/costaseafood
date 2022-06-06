@@ -1,0 +1,41 @@
+.olListBreqadcrumb {
+    margin: 0;
+    background: 0 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+}
+
+.itemListBreadcrumb {
+    display: inline;
+}
+.linkListBreadcrumb {
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.linkListBreadcrumb {
+    font-size: 16px;
+    line-height: 24px;
+    color: #fda701;
+    text-transform: capitalize;
+}
+.itemListBreadcrumb+.itemListBreadcrumb {
+    padding-left: 15px;
+}
+.itemListBreadcrumb.active, .linkListBreadcrumb {
+    font-size: 16px;
+    line-height: 24px;
+    color: #fda701;
+    text-transform: capitalize;
+}
+.itemListBreadcrumb+.itemListBreadcrumb::before {
+    font-family: FontAwesome;
+    content: "\f061";
+    color: #fda701;
+    padding-right: 15px;
+    font-size: 10px;
+    line-height: 24px;
+}

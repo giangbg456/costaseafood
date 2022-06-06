@@ -1,0 +1,87 @@
+.admin-top{
+    margin-top: 100px;
+}
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color: #fda701;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #fda701;
+    text-decoration: underline;
+  }
+
+  .userpage-sidebar {
+    
+    display: block;
+    width: 180px;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+.user-page-brief {
+    display: flex;
+    padding: 15px 0;
+    border-bottom: 1px solid  #fda701;
+}
+.userpage-slidebar-menu{
+        display: block;
+        list-style: none;
+        padding: 0;
+        margin: 27px 0 0;
+        cursor: pointer;
+    
+}
+
+.userpage-slidebar-menu-web{
+    padding-bottom: 1.2rem;
+}
+.title-admin-web{
+    border-left: 3px solid#fda701;
+    font-weight: 500;
+    font-size: 1.2rem;
+    background: #f5f5f5;
+    padding: .6rem .9rem;
+    margin-bottom: .6rem;
+}
+b, strong {
+    font-weight: 700;
+}
+.right-content{
+    position: relative;
+    flex: 0 0 80%;
+    max-width: 80%;
+    min-height: 100%;
+    padding-left: 1.2rem;
+}
+.right-content-main{
+  
+    position: relative;
+    display: block;
+    background-color: #fff;
+    text-decoration: none;
+    overflow: hidden;
+    padding: 2rem 1.2rem;
+    margin-bottom: 1.2rem;
+    min-height: 30rem;
+}
+.right-content-top-title{
+  padding-top: 20px;
+}
+a:hover {
+  text-decoration: none;
+  color:#fda701;
+}

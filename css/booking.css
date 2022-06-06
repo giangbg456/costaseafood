@@ -1,0 +1,68 @@
+.descriptionBook {
+    font-size: 16px;
+    color: #777;
+    line-height: 26px;
+}
+.colItemDatCho.colLeft {
+    border-right: 1px solid #bdbebf;
+}
+.colItemDatCho.colLeft .wrapTextDetailDatCho {
+    text-align: right;
+    padding-right: 15px;
+}
+.colItemDatCho.colRight .wrapTextDetailDatCho {
+    text-align: left;
+    padding-left: 15px;
+}
+.wrapTextDatCho {
+    margin: 30px 0;
+}
+.listInputBookRoom {
+    margin: 60px 0 30px 0;
+}
+.colInputBookRoom {
+    margin-bottom: 30px;
+}
+.lblInputBookRoom {
+    font-size: 16px;
+    line-height: 26px;
+    color: #000;
+    font-family: NotoSansJP;
+    margin-bottom: 5px;
+    display: block;
+}
+label {
+    color: #555;
+    font-weight: 500;
+}
+.contentMenu .form .form-control {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+.form .form-control {
+    height: 40px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 4px 12px;
+    font-size: 1em;
+    color: #555;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+}
+.btnSendBookNow {
+    display: table;
+    margin: auto;
+    height: auto;
+    padding: 10px 60px;
+    font-weight: 700;
+}   

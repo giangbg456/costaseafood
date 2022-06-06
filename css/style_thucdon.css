@@ -1,0 +1,65 @@
+.wrapIconFillterFood {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.iconMenuFillter {
+    margin-top: 50px;
+    width: 80px;
+    height: auto;
+}
+.listFoodMenu{
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+
+.rowListFoodMenu {
+    margin: 0 -7.5px;
+}
+.rowListFoodMenu .colItemFoodMenu:nth-child(4n+1) {
+    clear: both;
+}
+.colItemFoodMenu {
+    padding: 0 7.5px;
+    margin-top: 15px;
+}
+.wrapBorderImgItemFoodMenu {
+    padding: 5px;
+    border: 1px solid #fda701;
+    border-radius: 6px;
+}
+.sec-title  .titleHeadingItemFoodMenu {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 15px;
+}
+.priceItemFoodMenu {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #d23919;
+}
+.sec-title .titlefood{
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: .5px;
+}
+.titleControlFillterFood {
+    font-size: 30px;
+    line-height: 34px;
+    font-family: ArimaMadurai;
+    text-transform: capitalize;
+    color: #fda701;
+    font-weight: 700;
+    text-align: center;
+}
+
+.wrapImgBreadcrumb {
+    background-color: #000;
+}
+.wrapBreadCrumb {
+    position: relative;
+}
+.imgBreadcrumbs {
+    opacity: .5;
+}

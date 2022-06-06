@@ -1,0 +1,97 @@
+.sec-menu .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.sec-menu .menu>* {
+    width: 50%;
+}
+.sec-menu .menu .content {
+    padding: 90px;
+}
+.sec-menu .content {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    padding: 60px 30px;
+}
+.sec-menu .content .desc, .sec-menu .content .title {
+    color: #fff;
+}
+.sec-menu .menu .title {
+    font-weight: 400;
+}
+.sec-menu .content .desc {
+    font-size: 1em;
+    line-height: 1.4em;
+    -webkit-line-clamp: 3;
+    max-height: 4.2em;
+}
+.sec-menu .content .desc, .sec-menu .content .title {
+    color: #fff;
+}
+
+.sec-menu .content .desc {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+
+  .header .search-form {
+    position: absolute;
+    width: 400px;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%,0);
+    -webkit-transform: translate(-50%,0);
+    -moz-transform: translate(-50%,0);
+    -ms-transform: translate(-50%,0);
+    -o-transform: translate(-50%,0);
+}
+.header .search-form .form-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 12px 15px 0 15px;
+    margin: 0;
+}
+.header .search-form .form-group .inp-search {
+    width: calc(100% - 42px);
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-left: none;
+}
+.form .form-control {
+    height: 40px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 4px 12px;
+    font-size: 1em;
+    color: #555;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+}
+.header .search-form .form-group .btn {
+    width: 42px;
+    display: block!important;
+}
+.header .menu .nav>li a {
+    font-size: 1em;
+    color: #fff;
+    letter-spacing: .3px;
+    background: 0 0!important;
+    display: inline-block;
+}
